@@ -12,3 +12,11 @@ footer a {
 body {
     padding-top: 55px; /* 視你的 navbar 高度調整 */
   }
+ 
+  .btn-outline-dark:focus,
+  .btn-outline-dark:active,
+  .btn-outline-dark:focus-visible,
+  .btn-outline-dark:focus-within {
+    box-shadow: none !important;
+  }
+
